@@ -1,0 +1,73 @@
+/*
+reset browser styling
+*/
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+    margin: 0px;
+}
+#gannet {
+    float: left;
+    width: 50%;
+    max-width: 500px;
+}
+
+#titlepage {
+    padding: 20px;
+    background-color: rgb(11, 227, 206);
+    max-width: 100%;
+    text-align: center;
+    font-style: bold;
+}
+
+#container {
+    padding: 20px;
+}
+
+#muriwai {
+    text-align: center;
+    font-size: 50px;
+}
+
+#rightcontainer {
+    width: 50%;
+    float: left;
+}
+
+#leftcontainer {
+    width: calc(50% - 40px);
+    float: left;
+    padding: 10px 20px;
+    background-color:rgba(204,229,255,0.5);
+}
+h1 {
+    color: black;
+}
+h2 {
+    color: white;
+    text-align: right;
+    margin-right: 30px;
+}
+h3 {
+    color: black;
+}
+p {
+    color: rgb(19, 18, 3);
+    font-size: 19px;
+}
+p a {
+	color: red;
+}
+a {
+	color: red;
+}
+
+#ripcurrent {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

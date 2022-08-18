@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>New Zealand Beaches Website</title>
+		<link rel="stylesheet" href="styles/index.css">
+	</head>
+	<body onLoad="javascript:showGreetings();">
+		<style>
+			body {
+				background-image: url('Muriwai-beach-landscape-1.jpg');
+				background-repeat: no-repeat;
+				background-size: 100%;
+				position: relative;
+			}
+		</style>
+		 
+		<img id="gannet_small" src="gannet.png" onClick="javascript:showBirdInfo();" alt="Gannets at Muriwai, Auckland" style="position: absolute; top: 30px; right: 20px; width: 100%; max-width: 120px;"/> 
+			
+		<div>
+			<h1 id="titlepage">New Zealand's Best Beaches</h1>
+		</div>
+		
+		<h2>North Island</h2>
+		
+		<h3 id="muriwai">Muriwai Beach</h3>
+
+		<div id="container">
+			<div>
+				<div id="leftcontainer">
+					<p>
+						Muriwai Beach is a good beach for surfing and bodyboarding. However, there are very strong <a id="ripcurrent" href="ripcurrents.html">rip currents</a>
+						and it is best to find out about the dangers of rip currents before you visit Muriwai Beach. Muriwai is on the west coast of Auckland 
+						above the Waitakere Ranges and is home to a large colony of gannets.
+					</p>
+				
+					<p>
+						Over a thousand gannets return from Australia every year between August and March.
+					</p>
+				
+					<p>
+						There is a car park near the beach, which leads to a range of viewing platforms that allow visitors to close up views of the colony and 
+						rough coastline.
+					</p>
+					<p><a href="mailto:someone@hotmail.com">Send email to Someone</a></p>
+					<a href="https://westauckland.co.nz/beaches/muriwai-beach">Muriwai Beach</a>	
+				</div>
+
+			</div>
+			
+			<div id="rightcontainer">
+				<a href="https://en.wikipedia.org/wiki/Gannet">
+					<img id="gannet" src="gannet.png" alt = "Gannets at Muriwai, Auckland" /> 
+				</a>
+			</div>
+			<div>
+				<p id="elemnt01"></p>
+					<button onclick="document.getElementById('elemnt01').innerHTML=Date()">Last date visited</button>
+			</div>
+		</div>
+	
+		<script type="text/javascript">
+			function showBirdInfo() {
+				var title = document.getElementById("titlepage").innerText;
+				alert('Do you want to continue?');
+			}
+		</script>
+		<style type="text/css">
+			#gannet_small {
+				cursor:pointer;
+			}
+		</style>
+	</body>
+</html>
